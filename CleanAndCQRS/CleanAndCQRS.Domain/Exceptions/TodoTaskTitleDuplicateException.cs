@@ -1,6 +1,6 @@
 ﻿namespace CleanAndCQRS.Domain.Exceptions;
 
-public class TodoTaskTitleDuplicateException : Exception
+public class TodoTaskTitleDuplicateException : DomainException
 {
     public TodoTaskTitleDuplicateException(string message) : base(message)
     {

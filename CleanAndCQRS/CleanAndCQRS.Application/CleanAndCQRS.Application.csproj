@@ -15,4 +15,8 @@
     <ProjectReference Include="..\CleanAndCQRS.Domain\CleanAndCQRS.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Tasks\Queries\" />
+  </ItemGroup>
+
 </Project>

@@ -51,7 +51,8 @@ internal class ToDoRepository : IToDoRepository
         todoList.UpdateTitle(title);    
     }
 
-
-
-
+    public void UpdateTasksAsync(ToDoList toDoList)
+    {
+        doLists.Update(toDoList);
+    }
 }

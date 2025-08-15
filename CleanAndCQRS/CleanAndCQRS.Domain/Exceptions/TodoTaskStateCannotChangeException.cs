@@ -1,6 +1,6 @@
 ﻿namespace CleanAndCQRS.Domain.Exceptions;
 
-public class TodoTaskStateCannotChangeException : Exception
+public class TodoTaskStateCannotChangeException : DomainException
 {
     public TodoTaskStateCannotChangeException(string message) : base(message)
     {

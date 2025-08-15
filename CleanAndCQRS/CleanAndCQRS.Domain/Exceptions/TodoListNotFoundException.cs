@@ -1,6 +1,6 @@
 ﻿namespace CleanAndCQRS.Domain.Exceptions;
 
-public class TodoListNotFoundException : Exception
+public class TodoListNotFoundException : DomainException
 {
     public TodoListNotFoundException(string message) : base(message)
     {

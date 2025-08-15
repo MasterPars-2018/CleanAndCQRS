@@ -51,7 +51,7 @@ public class ToDoTask : BaseEntity
 
     }
      
-    internal static ToDoTask CreateInstance(string title, string? description)
+    public static ToDoTask CreateInstance(string title, string? description)
     {
         return new ToDoTask(Guid.CreateVersion7(), title,
             description,
